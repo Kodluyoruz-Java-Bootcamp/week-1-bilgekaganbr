@@ -12,7 +12,7 @@ public class myList {
 	
 	public void adding(String name)
 	{
-		if (name.charAt(0) == 'C')
+		if (name.charAt(0) == 'C' || name.charAt(0) == 'c')
 		{
 			myList.add(name);
 			element++;
